@@ -1,0 +1,9 @@
+.\objects\gyro.o: Src\gyro.c
+.\objects\gyro.o: .\Inc\gyro.h
+.\objects\gyro.o: .\Inc\common.h
+.\objects\gyro.o: .\Inc\MKL46Z4.h
+.\objects\gyro.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\gyro.o: .\Inc\dataTypes.h
+.\objects\gyro.o: .\Inc\extended_math.h
+.\objects\gyro.o: .\Inc\i2c.h
+.\objects\gyro.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

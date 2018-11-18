@@ -1,0 +1,9 @@
+.\objects\switches.o: Src\switches.c
+.\objects\switches.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\switches.o: .\Inc\common.h
+.\objects\switches.o: .\Inc\MKL46Z4.h
+.\objects\switches.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\switches.o: .\Inc\dataTypes.h
+.\objects\switches.o: .\Inc\extended_math.h
+.\objects\switches.o: .\Inc\switches.h
+.\objects\switches.o: .\Inc\interrupt.h

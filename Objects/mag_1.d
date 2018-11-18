@@ -1,0 +1,10 @@
+.\objects\mag_1.o: Src\mag.c
+.\objects\mag_1.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\mag_1.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\mag_1.o: .\Inc\mag.h
+.\objects\mag_1.o: .\Inc\common.h
+.\objects\mag_1.o: .\Inc\MKL46Z4.h
+.\objects\mag_1.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mag_1.o: .\Inc\dataTypes.h
+.\objects\mag_1.o: .\Inc\extended_math.h
+.\objects\mag_1.o: .\Inc\i2c.h

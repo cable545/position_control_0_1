@@ -1,0 +1,111 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: - -, -, LIC=V85GK-Z5BGP-MSIYP-MU0ZX-RP71A-ALZDR
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.21a
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DARMCM1.DLL V1.14.0.0
+Target DLL:      UL2CM3.DLL V1.158.5.0
+Dialog DLL:      TARMCM1.DLL V1.10.0.0
+ 
+<h2>Project:</h2>
+E:\GitHub\position_control_1\position_control_0_1.uvprojx
+Project File Date:  11/18/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'FRDM-KL46Z256'
+assembling startup_MKL46Z4.s...
+compiling acc.c...
+compiling adafruit_modul.c...
+compiling adc16.c...
+compiling bluetooth_connection.c...
+Src\bluetooth_connection.c(135): warning:  #550-D: variable "tmp" was set but never used
+  	char tmp;
+Src\bluetooth_connection.c: 1 warning, 0 errors
+compiling buzzer.c...
+compiling controller.c...
+Src\controller.c(28): warning:  #177-D: variable "err_angle_sum_yaw" was declared but never referenced
+  static float err_angle_sum_roll, err_rate_sum_roll, err_angle_sum_pitch, err_rate_sum_pitch, err_angle_sum_yaw, err_rate_sum_yaw;
+Src\controller.c(29): warning:  #177-D: variable "yaw_set_value_angle_defined" was declared but never referenced
+  static int yaw_set_value_angle_defined = FALSE;
+Src\controller.c(30): warning:  #177-D: variable "yaw_set_value_angle" was declared but never referenced
+  static int yaw_set_value_angle;
+Src\controller.c: 3 warnings, 0 errors
+compiling debug.c...
+compiling dma.c...
+compiling extended_math.c...
+compiling filter.c...
+compiling gyro.c...
+compiling i2c.c...
+compiling interrupt.c...
+compiling io.c...
+compiling kalman_filter.c...
+compiling led.c...
+compiling lptmr.c...
+compiling mag.c...
+compiling pwm.c...
+compiling main.c...
+Src\main.c(99): warning:  #111-D: statement is unreachable
+  	return 0;
+Src\main.c: 1 warning, 0 errors
+compiling mcg.c...
+compiling receiver.c...
+compiling Retarget.c...
+compiling switches.c...
+compiling sensor_fusion.c...
+Src\sensor_fusion.c(10): warning:  #177-D: variable "gyro_roll" was declared but never referenced
+  static float gyro_roll = 0.0, gyro_pitch = 0.0, gyro_yaw = 0.0;
+Src\sensor_fusion.c(10): warning:  #177-D: variable "gyro_pitch" was declared but never referenced
+  static float gyro_roll = 0.0, gyro_pitch = 0.0, gyro_yaw = 0.0;
+Src\sensor_fusion.c(10): warning:  #177-D: variable "gyro_yaw" was declared but never referenced
+  static float gyro_roll = 0.0, gyro_pitch = 0.0, gyro_yaw = 0.0;
+Src\sensor_fusion.c(12): warning:  #177-D: variable "tilt_comp_yaw" was declared but never referenced
+  static float tilt_comp_yaw = 0.0;
+Src\sensor_fusion.c: 4 warnings, 0 errors
+compiling sysinit.c...
+compiling sysTick.c...
+compiling TPM_o.c...
+compiling tpm.c...
+compiling uart.c...
+linking...
+Program Size: Code=25800 RO-data=2768 RW-data=292 ZI-data=8668  
+".\Objects\position_control_0_1.axf" - 0 Error(s), 9 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.0-Beta12.pack
+                ARM::CMSIS:CORE:5.0.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.0
+   * Component: DSP Version: 1.4.6
+
+<h2>Collection of Component include folders:</h2>
+  E:\GitHub\position_control_1\RTE
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include
+  D:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.0
+
+   * Component: ARM::CMSIS:DSP:1.4.6
+      Include file:  CMSIS\Include\arm_math.h
+      Library file:  CMSIS\Lib\ARM\arm_cortexM0l_math.lib
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

@@ -1,0 +1,14 @@
+.\objects\acc.o: Src\acc.c
+.\objects\acc.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\arm_math.h
+.\objects\acc.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm0plus.h
+.\objects\acc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\acc.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h
+.\objects\acc.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h
+.\objects\acc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\acc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\acc.o: .\Inc\acc.h
+.\objects\acc.o: .\Inc\common.h
+.\objects\acc.o: .\Inc\MKL46Z4.h
+.\objects\acc.o: .\Inc\dataTypes.h
+.\objects\acc.o: .\Inc\extended_math.h
+.\objects\acc.o: .\Inc\i2c.h
